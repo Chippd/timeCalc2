@@ -330,6 +330,14 @@ $(removeBN).click(removeFields);
 $(gobutton).click(calcDecider);
 
 
+//for email:
+$('.email').click(function(){
+    var hrefString = $(this).attr('href');
+    var myWindow = window.open(hrefString, "Opening mail client", "width=200, height=100");
+        myWindow.document.write("<p>Opening mail client.Please wait!!</p>");
+        setTimeout(function(){ myWindow.close() }, 2000);
+    });
+
 
 
 
