@@ -1,0 +1,261 @@
+/*css file*/
+
+
+body {
+font-family: 'Oswald', sans-serif;
+min-width: 357px;
+overflow-x: scroll;
+padding: 0;
+margin:0;
+height: auto;
+}
+
+input:focus {
+}
+
+#header {
+text-align: center;
+color: grey;
+}
+
+#header h1 {
+font-weight: lighter;
+margin-top:3px;
+margin-bottom:3px;
+}
+
+#header p {
+font-weight: lighter;
+margin: 0;
+}
+
+#calcwrap {
+    margin-top: 0;
+    min-height: 140px;
+    height: auto;
+/*    background-color: lightgrey;*/
+}
+
+#shiftcalc {
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+
+#shiftcalc input{
+width: 50%;
+margin-right: auto;
+margin-left:auto;
+text-align: center;
+height: auto;
+font-family: sans-serif;
+font-size: 1em;
+padding-left:3%;
+}
+
+
+#shiftcalc h5 {
+margin-bottom:0;
+font-size: 1.1em;
+margin-top:10px;
+}
+
+#hourscalc {
+text-align: center;
+position: relative;
+min-height: 136;
+right:-100px;
+opacity: 0;
+overflow: hidden;
+}
+
+#hourscalc input {
+width: 50%;
+margin-right: auto;
+margin-left:auto;
+text-align: center;
+height: auto;
+font-family: sans-serif;
+font-size: 1em;
+padding-left:3%;
+}
+
+#hourscalc h5 {
+margin-bottom:0;
+font-size: 1.1em;
+margin-top:10px;
+}
+
+#hourscalc p {
+    padding: 0;
+    margin:0;
+    font-size: 30px;
+}
+
+.plus{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.shift {
+ position: relative;
+}
+
+
+#bottom {
+text-align: center;
+}
+
+#gobutton {
+cursor: pointer;
+margin: 15px;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+background-color:#9dce2c;
+/*-webkit-border-top-left-radius:12px;*/
+/*-moz-border-radius-topleft:12px;*/
+/*border-top-left-radius:12px;*/
+/*-webkit-border-top-right-radius:12px;
+-moz-border-radius-topright:12px;*/
+/*border-top-right-radius:12px;*/
+/*-webkit-border-bottom-right-radius:12px;*/
+/*-moz-border-radius-bottomright:12px;*/
+/*border-bottom-right-radius:12px;*/
+/*-webkit-border-bottom-left-radius:12px;*/
+/*-moz-border-radius-bottomleft:12px;*/
+/*border-bottom-left-radius:12px;*/
+text-indent:0;
+border:1px solid #83c41a;
+display:inline-block;
+color:#ffffff;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+font-style:normal;
+height:35px;
+line-height:30px;
+width:131px;
+text-decoration:none;
+text-align:center;
+text-shadow:1px 1px 0px #689324;
+}
+#gobutton:hover {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+background-color:#8cb82b;
+}#gobutton:active {
+position:relative;
+top:1px;
+}
+
+#morefields,
+#morefields a,
+#lessfields,
+#lessfields a {
+color: darkgrey;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+#result {
+    margin-top: 10px;
+    height:40px;
+}
+
+.greyedout{
+color: lightgrey;
+cursor: pointer;
+}
+
+.greyedout:hover {
+    text-decoration: underline;
+}
+
+#footer {
+border-top: 1px solid grey;
+background-color: lightgrey;
+width:100%;
+text-align: center;
+font-weight: lighter;
+line-height: 45px;
+margin:0;
+}
+
+#footer p{
+margin:0;
+font-weight: 400;
+}
+
+#footer a{
+color: #4E4E4E;
+margin:0;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+.i2 {
+margin-top: 8px;
+}
+
+.hidden {
+	display: none;
+}
+
+#typeButtons {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+}
+
+#typeButtons button{
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+    width:40%;
+    margin: 20px 4%;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 0;
+    color: darkgrey;
+    transition-duration: 0.2s;
+    padding:3px;
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px lightgrey;
+}
+
+#typeButtons button:focus ,#typeButtons .active {
+    background: lightgrey;
+    text-decoration: none;
+    color: white;
+    box-shadow:         inset 0 0 40px lightgrey;
+}
+
+#typeButtons button:hover {
+    box-shadow: none;
+}
+
+/*******************************
+styling for buttons
+******************************/
+
+
+
+.moveleft {
+    left: -400px;
+    transition: 0.7s ease-out;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

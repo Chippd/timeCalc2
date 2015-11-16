@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Time Clock Calculator</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.min.css">
+    <script src="tracking.js"></script>
+    
+
+  </head>
+  <body>
+    <div id="header">
+      <h1>Time Calculator</h1>
+      <p>(use 24hr format)</p>
+    </div>
+    <div id='typeButtons'>
+      <button id="shiftsButton">Shift Calculator</button>
+      <button id="timesButton">Just Times</button>
+    </div>
+
+    <div id="calcwrap">
+
+      <div id="shiftcalc">
+        <div class="shift">
+          <h5>Start</h5>
+          <input type="time"><br>
+          <h5 class="i2">Finish</h5>
+          <input type="time"><br>
+        </div>
+      </div>
+
+      <div id="hourscalc">
+        <h5>Add hours and minutes</h5>
+          <input type="time"><br>
+          <span class="plus fa fa-plus"></span>
+          <input type="time"><br>
+      </div>
+
+    </div>
+      
+    <div id="bottom">
+      <button id="gobutton">Calculate</button>
+      <h5 id="morefields" class="greyedout">Add Fields</h5>
+      <h5 id="lessfields" class="greyedout">Remove Fields</h5>
+      <div id="result">
+        
+      </div>
+    </div><!--end bottom-->
+    <div id="footer">
+      <a href="#">
+        <p>Your company logo and colours here!</p>
+      </a>
+    </div>
+        <script src="calculate.js"></script>
+  </body>
+</html>
+

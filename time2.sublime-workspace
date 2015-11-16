@@ -1,0 +1,676 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"xtra",
+				"xtraHours"
+			],
+			[
+				"shi",
+				"shiftmode"
+			],
+			[
+				"hours",
+				"hourscalc"
+			],
+			[
+				"cal",
+				"calculateShift"
+			],
+			[
+				"shfit",
+				"shiftmode"
+			],
+			[
+				"add",
+				"addHours"
+			],
+			[
+				"tot",
+				"totalTime"
+			],
+			[
+				"shift",
+				"shiftmode"
+			],
+			[
+				"times",
+				"timesToAdd"
+			],
+			[
+				"tota",
+				"totalTime"
+			],
+			[
+				"input",
+				"inputCount"
+			],
+			[
+				"inp",
+				"inputCount"
+			],
+			[
+				"time",
+				"timeA"
+			],
+			[
+				"this",
+				"thisMins"
+			],
+			[
+				"mins",
+				"thisMins"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"slide",
+				"slideleft"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"score",
+				"scoreholder"
+			],
+			[
+				"scoreh",
+				"scoreHolderParent"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"rand",
+				"randomGif"
+			],
+			[
+				"next",
+				"nextbutton"
+			],
+			[
+				"fix",
+				"fixbuttons"
+			],
+			[
+				"no",
+				"noButtonPressed"
+			],
+			[
+				"ca",
+				"calculator"
+			],
+			[
+				"second",
+				"secondshift"
+			],
+			[
+				"minute",
+				"minutes1"
+			],
+			[
+				"calcul",
+				"calculate2"
+			],
+			[
+				"inputs",
+				"inputscontent"
+			],
+			[
+				"gif",
+				"gifholder"
+			],
+			[
+				"yes",
+				"yesButtonPressed"
+			],
+			[
+				"load",
+				"loadgif"
+			],
+			[
+				"loaded",
+				"loadedgifs"
+			],
+			[
+				"g",
+				"gifholder"
+			],
+			[
+				"gf",
+				"gifsource"
+			],
+			[
+				"gifo",
+				"gifsource"
+			],
+			[
+				"ge",
+				"generatevowel"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"circle",
+				"circle2"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"car",
+				"carousel"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"carou",
+				"Carousel"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "popup.html",
+			"settings":
+			{
+				"buffer_size": 1786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 4480,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "manifest.json",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "calculate.js",
+			"settings":
+			{
+				"buffer_size": 8400,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"view.run_command(\"open_browser\")",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/c_dermody/Dropbox/Apps/extensions/timecalculator2/font-awesome-4.2.0"
+	],
+	"file_history":
+	[
+		"/C/Users/c_dermody/Dropbox/Apps/extensions/timecalculator/popup.html",
+		"/C/Users/c_dermody/Dropbox/Apps/extensions/timecalculator2/calculate.js",
+		"/C/Users/c_dermody/Dropbox/Apps/extensions/timecalculator2/style.css",
+		"/C/Users/c_dermody/Dropbox/Apps/extensions/timecalculator2/popup.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/dash.site44.com/css/styles.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/dash.site44.com/styles.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/stt.site44.com/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/stt.site44.com/js/quiz.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/stt.site44.com/assetts/stylesheet.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/stt.site44.com/index2.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/stt.site44.com/js/quiz2.js",
+		"/C/Users/Chris/Dropbox/Apps/extensions/timecalculator/manifest.json",
+		"/C/Users/Chris/Dropbox/Apps/extensions/timecalculator/calculate.js",
+		"/C/Users/Chris/Dropbox/Apps/extensions/timecalculator/popup.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/countdowngame.site44.com/css/mystyle.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/countdowngame.site44.com/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/countdowngame.site44.com/scripts/myscript.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/mariokart.site44.com/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/mariokart.site44.com/barwithscales.html",
+		"/C/Users/Chris/Google Drive/Personal/mariokartsite/index.html",
+		"/C/Users/Chris/Google Drive/Personal/mariokartsite/2483713-scene_1024x768.jpg",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/barwithscales.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/yt-tut13-pies-adapted-new-tut.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/css/mystyles.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/test1.csv",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/yt-tut13-pies.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/popup.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/circletransitions.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/scripts/custom.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/css/style.css",
+		"/C/Users/Chris/Desktop/Downloads/tipped-4.1.4-light/tipped-4.1.4-light/example/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/css/tipped.css",
+		"/C/Users/Chris/Desktop/Downloads/tipped-4.1.4-light/tipped-4.1.4-light/js/tipped/tipped.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/scripts/jquery.nav.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/js/jquery.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/js/scrollReveal.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/css/animate.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/css/style.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/css/mystyle.css",
+		"/C/Users/Chris/Desktop/Astral/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/css/style-desktop.css",
+		"/C/Users/Chris/Desktop/Astral/css/style.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/poemly.site44.com/assetts/poemscript.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/poemly.site44.com/assetts/sheet1.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/poemly.site44.com/index.html",
+		"/C/Users/Chris/Desktop/plasm-simplemodal-a73e57a/Demos/index.html",
+		"/C/Users/Chris/Desktop/Poem.ly/index.htm",
+		"/C/Users/Chris/Desktop/Poem.ly/assetts/sheet1.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/index.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/css/mystyles.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/js/backstretch.js",
+		"/C/Users/Chris/Desktop/conkr2.site44.com/index.html",
+		"/C/Users/Chris/Desktop/conkr2.site44.com/css/mystyles.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/chrisprog.site44.com/js/myjavascript.js",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/css/bootstrap.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/css/my-styles.css",
+		"/C/Users/Chris/Desktop/FlexSlider-version-2.2/demo/basic-carousel.html",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/css/carousel",
+		"/C/Users/Chris/Dropbox/Apps/site44/conkr2.site44.com/css/flexslider.css",
+		"/C/Users/Chris/Dropbox/Apps/site44/cderm.site44.com/assets/css/bootstrap.min.css",
+		"/C/Users/Chris/Desktop/conkrdw2responsive/indexv1 - Copy.html",
+		"/C/Users/Chris/Desktop/Conkr bootstrap/index.html",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Chris/Desktop/Downloads/Dark_black_chick_sucks_big_white_cock.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shift",
+			"moveleft",
+			"border-radius",
+			"xtrashift",
+			"input",
+			"buttonholder",
+			"a",
+			"over",
+			"loadgif",
+			"restart\nrestart",
+			"restart",
+			"{\n",
+			"150px",
+			"60",
+			"active",
+			"navbar",
+			"wrap",
+			"scroll",
+			"me",
+			"dropdown-menu",
+			"dropdown",
+			"dropdown-menu",
+			"carousel-caption"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "popup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								755
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1087,
+								1087
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1164.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "manifest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "calculate.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1754,
+								1754
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "time2.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Chris/Dropbox/Apps/site44/countdowngame.site44.com/countdowngame.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
