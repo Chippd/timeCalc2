@@ -9,6 +9,7 @@ padding: 0;
 margin:0;
 height: auto;
 font-size: 1em;
+font-family: 'Varela Round', sans-serif;
 }
 
 input:focus {
@@ -112,10 +113,11 @@ text-align: center;
 #gobutton {
 cursor: pointer;
 margin: 15px;
-background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+background: #467e30;
+/*background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
 background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
-background-color:#9dce2c;
+background-color:#9dce2c;*/
 /*-webkit-border-top-left-radius:12px;*/
 /*-moz-border-radius-topleft:12px;*/
 /*border-top-left-radius:12px;*/
@@ -129,7 +131,8 @@ background-color:#9dce2c;
 /*-moz-border-radius-bottomleft:12px;*/
 /*border-bottom-left-radius:12px;*/
 text-indent:0;
-border:1px solid #83c41a;
+/*border:1px solid #83c41a;*/
+border:none;
 display:inline-block;
 color:#ffffff;
 font-family:Arial;
@@ -141,7 +144,7 @@ line-height:30px;
 width:131px;
 text-decoration:none;
 text-align:center;
-text-shadow:1px 1px 0px #689324;
+/*text-shadow:1px 1px 0px #689324;*/
 }
 #gobutton:hover {
 background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
@@ -179,12 +182,16 @@ cursor: pointer;
 
 #footer {
 border-top: 1px solid grey;
-background-color: lightgrey;
+background-color: #467e30;
 width:100%;
 text-align: center;
 font-weight: lighter;
 line-height: 45px;
 margin:0;
+display: flex;
+align-items: center;
+justify-content: center;
+padding:10px 0;
 }
 
 #footer p{
@@ -259,4 +266,10 @@ input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+
+.company-logo {
+    height:50px;
 }
